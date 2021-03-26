@@ -70,6 +70,8 @@ components:
     User:
       type: object
       properties:
+        avatar:
+          type: string
         name:
           type: string
         email:
