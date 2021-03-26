@@ -91,6 +91,10 @@ components:
           type: string
         name:
           type: string
+        email:
+          type: string
+        avatar:
+          type: string
   responses:
     UnauthorizedError:
       description: Access token is missing or invalid
@@ -174,6 +178,9 @@ paths:
               type: object
               title: example
               properties:
+                avatar:
+                  type: string
+                  description: User avatar (base64)
                 name:
                   type: string
                   description: User name
